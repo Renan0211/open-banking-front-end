@@ -12,7 +12,7 @@ const carouselItemStyle = {
 class HomePageCarousel extends Component {
   render() {
     return (
-      <Carousel variant="dark">
+      <Carousel variant="dark" className="m-3">
         <Carousel.Item style={carouselItemStyle}>
           <img
             className="d-block w-100"

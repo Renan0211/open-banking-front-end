@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class Navbar1 extends Component {
   render() {
@@ -11,7 +12,7 @@ class Navbar1 extends Component {
     <Navbar.Collapse id="responsive-navbar">
       <Nav className="me-auto">
         <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#link">Login</Nav.Link>
+        <Link to="/login"><Nav.Link href="#link">Login</Nav.Link></Link>
         <NavDropdown title="About us" id="basic-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">Our History</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">Work with us!</NavDropdown.Item>
@@ -19,7 +20,7 @@ class Navbar1 extends Component {
           <NavDropdown.Item href="#action/3.4">Contact</NavDropdown.Item>
         </NavDropdown>
         <Nav className="justify-content-end">
-          <Nav.Link href="#link">Register</Nav.Link>
+          <Link to="/register"><Nav.Link href="#link">Register</Nav.Link></Link>
         </Nav>
       </Nav>
     </Navbar.Collapse>
