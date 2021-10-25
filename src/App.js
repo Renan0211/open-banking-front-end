@@ -6,6 +6,7 @@ import Login from './Pages/Login';
 import Register from './Pages/Register';
 import './App.css'
 import UserBalance from './Pages/UserBalance';
+import UserTransactions from './Pages/UserTransactions';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <Switch>
         <Route path="/user/balance" component={UserBalance}/>
+        <Route path="/user/transactions" component={UserTransactions}/>
         <Route path="/register" component={Register}/>
         <Route path="/login" component={Login} />
         <Route path="/" component={HomePage}/>
