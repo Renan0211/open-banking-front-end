@@ -10,7 +10,7 @@ export default function Login (){
   const fetchLogin = async () => {
     await axios({
       method: 'POST',
-      baseURL: 'https://dev-test-4cadia--renan0211.herokuapp.com/',
+      baseURL: 'http://localhost:3001/',
       url: '/login',
       data: userData,
     }).then(res => {
