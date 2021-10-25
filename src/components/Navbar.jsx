@@ -11,7 +11,7 @@ class Navbar1 extends Component {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar">
       <Nav className="me-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
+        <Link to="/"><Nav.Link href="#home">Home</Nav.Link></Link>
         <Link to="/login"><Nav.Link href="#link">Login</Nav.Link></Link>
         <NavDropdown title="About us" id="basic-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">Our History</NavDropdown.Item>
