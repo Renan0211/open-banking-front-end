@@ -1,11 +1,13 @@
 import axios from 'axios';
 import React, {useState, useEffect} from 'react'
 import { Table } from 'react-bootstrap';
+import { Redirect } from 'react-router';
 import BankBalance from '../components/BankBalance';
 require('dotenv').config();
 
 function UserBalance() {
   const [userBalances, setUserBalances] = useState([]);
+  const [redirect, setRedirect] = useState('');
   useEffect(() => {
     async function fetchBalances () {
       await axios({
@@ -16,7 +18,9 @@ function UserBalance() {
       }).then(res => {
         setUserBalances(res.data);
       }).catch(e => {
+        if(e.response.status === 401) localStorage.removeItem('token');
         alert(e.response.data.message);
+        setRedirect('/');
       });
     }
     fetchBalances();
@@ -24,6 +28,9 @@ function UserBalance() {
   return (
     <div>
       <h1 className="text-light text-center m-3">Your balances:</h1>
+      {
+        redirect !== '' ? <Redirect to={`${redirect}`}/> : ''
+      }
       <Table striped bordered hover className="table-light w-50 mx-auto">
         <thead>
           <tr>
