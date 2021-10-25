@@ -7,7 +7,7 @@ class Navbar1 extends Component {
     return (
       <Navbar bg="light" expand="lg">
   <Container>
-    <Navbar.Brand href="#home">Open banking</Navbar.Brand>
+    <Link to="/"><Navbar.Brand href="#home">Open banking</Navbar.Brand></Link>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar">
       <Nav className="me-auto">

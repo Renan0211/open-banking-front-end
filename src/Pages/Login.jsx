@@ -9,13 +9,13 @@ export default class Login extends Component {
         <Container className="">
           <Form className="align-middle d-flex flex-column align-items-center">
             <FloatingLabel
-              controlId="floatingInput"
+              controlId="email"
               label="Email address"
               className="mb-3 w-50"
             >
               <Form.Control type="email" placeholder="name@example.com" />
             </FloatingLabel>
-            <FloatingLabel controlId="floatingPassword" label="Password" className="w-50">
+            <FloatingLabel controlId="password" label="Password" className="w-50">
               <Form.Control type="password" placeholder="Password" />
             </FloatingLabel>
             <Button className="my-2 mx-auto">Login</Button>

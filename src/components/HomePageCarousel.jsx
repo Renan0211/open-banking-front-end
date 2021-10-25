@@ -16,7 +16,7 @@ class HomePageCarousel extends Component {
         <Carousel.Item style={carouselItemStyle}>
           <img
             className="d-block w-100"
-            src={image1}
+            src={image3}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -39,7 +39,7 @@ class HomePageCarousel extends Component {
         <Carousel.Item style={carouselItemStyle}>
           <img
             className="d-block w-100"
-            src={image3}
+            src={image1}
             alt="Third slide"
           />
 
