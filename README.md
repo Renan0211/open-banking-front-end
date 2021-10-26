@@ -2,6 +2,8 @@
 ## Welcome! :grin:
 This project is a technical challenge for a selective process, so this documentation is made with the people that will be evaluating me in mind. But if you are just curious go ahead! You are also welcome here and I would love your feedback as well if you want to contact me!
 
+And please, if you want more details about the logic and the process of how i developed it, look at the commit history.
+
 You can find the back-end project [here](https://github.com/Renan0211/open-banking-back-end)
 
 ## Summary
@@ -18,6 +20,8 @@ You can find the back-end project [here](https://github.com/Renan0211/open-banki
 	- React-Bootstrap
 - Bootstrap
 - Axios
+
+For this project I have decided to use a stack that is appropriate for the project but also one that I'm familiarized with. This way, the project will be able to run reliable and stable, but, at the same time it will alow me to show my programming logic and how I write my code, using some of my favorite technologies.
 
 In the front-end of this project i opted to use **React**, since i'm really used to this framework and his ability to manage and pass data throughout the pages and components will be very useful in this project. And since it's a project with a short deadline i will also be using **Bootstrap** and React-Bootstrap for helping with the styling of this project, since I'm not very creative with this sort of thing.
 
