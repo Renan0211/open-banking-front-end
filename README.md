@@ -9,7 +9,7 @@ You can find the back-end project [here](https://github.com/Renan0211/open-banki
 - [Strengths](#strengths)
 - [Weaknesses](#weaknesses)
 - [Difficulties](#difficulties)
-- [How to Run (this project)](how-to-run)
+- [How to Run (this project)](#how-to-run)
 
 
 ## Stack
