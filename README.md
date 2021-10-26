@@ -1,4 +1,4 @@
-# Open Banking Back-end
+# Open Banking Front-end
 ## Welcome! :grin:
 This project is a technical challenge for a selective process, so this documentation is made with the people that will be evaluating me in mind. But if you are just curious go ahead! You are also welcome here and I would love your feedback as well if you want to contact me!
 
